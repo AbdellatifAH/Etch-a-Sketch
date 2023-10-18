@@ -6,13 +6,15 @@ body{
     box-sizing: border-box;
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    gap: 18px;
     align-items: center;
     justify-content: center;
 }
 
 #container{
     display: flex;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     flex-wrap: wrap;   
 }
